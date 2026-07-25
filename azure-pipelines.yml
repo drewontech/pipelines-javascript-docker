@@ -42,7 +42,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy job
     pool:
-      vmImage: $(vmImageName)
+      name: PRO690
     environment: 'pro690-a2'
     strategy:
       runOnce:
